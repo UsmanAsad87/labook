@@ -72,7 +72,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
               ),
               Text("Phone",
                   style: getRegularStyle(
-                      fontSize: 12,
+                      fontSize: 12.spMin,
                       color: Theme.of(context).colorScheme.tertiary)),
               CountryListPicker(
                 onCountryChanged: ((value) {
@@ -122,7 +122,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                           ),
                           Text("100% Data Security",
                               style: getRegularStyle(
-                                  fontSize: 12,
+                                  fontSize: 12.spMin,
                                   color: Theme.of(context).colorScheme.tertiary)),
                         ],
                       ),
